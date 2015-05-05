@@ -52,7 +52,7 @@ def getListAtag(page):
             urlDic[a.get_text()]=url_de_root+a.get('href')
             urlKeys.append(a.get_text())
     return urlDic
-      
+
         # page1= getHtmlPage(url_de_root+f_Url)
         # print(page1)
 # ???¡§¡§?????¡§¡§?? div id="article_summary" class="article_summary"
